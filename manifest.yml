@@ -5,6 +5,9 @@ applications:
   instances: 1
   domain: cfapps.io
   path: public
+  hosts: 
+    - pcfwkshpair
+    - pcf-mpls-workshop
   buildpack: staticfile_buildpack
 
 
