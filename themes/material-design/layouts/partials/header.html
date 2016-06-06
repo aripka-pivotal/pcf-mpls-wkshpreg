@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{.Site.LanguageCode}}">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>{{ .Title }}</title>
+  <link href="{{.Site.BaseURL}}/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="{{.Site.BaseURL}}/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
+</head>
+<body>
+  <div class="container-main">
+  <div class="header-nav">
+    <nav>
+      <div class="nav-wrapper">
+        <div class="pivotal-logo">
+          <a href="http://pivotal.io"><img src="{{.Site.BaseURL}}/images/pivotal-logo.png"/></a>
+        </div>
+        <ul id="nav-mobile" class="left hide-on-small-only">
+          <li><a href="{{.Site.BaseURL}}">Home</a></li>
+        </ul>
+        <ul id="slide-out" class="side-nav hide-on-med-and-up">
+          <li><a href="{{.Site.BaseURL}}"><i class="mdi-action-home left"></i>Home<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div id="index-banner" class="parallax-container">
+
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <!--logo start--
+          {{if .Site.Params.customer}}
+            <a href="http://www.{{.Site.Params.customer}}.com/"><img src="{{.Site.BaseURL}}/images/{{.Site.Params.customer}}.png" style="height:100px"></a>
+          {{end}}
+          <!--logo end-->
+        </div>
+        <!-- <h1 class="header center teal-text text-lighten-2"><a href="{{.Site.BaseURL}}">{{.Site.Title}}</a></h1> -->
+        <h1 class="header center" style="font-size:48px;font-weight:100;">{{.Site.Title}}</h1>
+        <div class="row center">
+          <h6 class="header col s12">{{.Site.Params.description}}</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

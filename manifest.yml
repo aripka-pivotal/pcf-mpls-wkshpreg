@@ -1,0 +1,10 @@
+---
+applications:
+- name: pcfwkshpair
+  memory: 64M
+  instances: 1
+  domain: cfapps.io
+  path: public
+  buildpack: staticfile_buildpack
+
+
