@@ -25,7 +25,7 @@ Space is limited. Reserve your seat today.
 | **11:45 AM-12:00 PM** | **SESSION 1** <br> <h5>Silicon Valley is a State of Mind</h5> An overview of Pivotal and how it is transforming the way the world builds software |
 | **12:00 PM-12:45 PM** | **SESSION 2** <br> <h5>Cloud Native Architectures and Frameworks</h5>Overview of cloud native industry trends and practices including: 12-factor apps, microservices, Spring Boot, and Spring Cloud |
 | **12:45 PM-1:00 PM** | <h5>Break</h5> |
-| **1:00 PM - 2:00 PM** | **SESSION 3** <br> <h5>Pivotal Cloud Foundry—The Cloud Native Platform</h5> An overview of demonstration of Pivotal Cloud Foundry |
+| **1:00 PM - 2:00 PM** | **SESSION 3** <br> <h5>Pivotal Cloud Foundry—The Cloud Native Platform</h5> An overview and demonstration of Pivotal Cloud Foundry |
 | **2:00 PM - 3:00 PM** | **HANDS ON EXERCISES** <br> <h5>Push, Bind, Scale, and Monitoring</h5> |
 | **3:00 PM - 3:30 PM** | <br> <h5>Wrap up, Q&amp;A, and Feedback</h5> |
 
