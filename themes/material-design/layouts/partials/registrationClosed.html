@@ -1,0 +1,6 @@
+{{ $baseurl := .Site.BaseURL }}
+  {{ range where .Data.Pages "Type"  "RegistrationClosed" }}
+    <div class="">
+      <p>{{ .Content }}</p>
+    </div>
+  {{ end }}
