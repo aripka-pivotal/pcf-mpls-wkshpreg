@@ -8,4 +8,4 @@ weight = 1
 +++
 
 ##### **Registration is now closed for this workshop**
-Please contact aripka@pivotal.io to inquire about attending future workshops.
+Please contact <mailto:aripka@pivotal.io> to inquire about attending future workshops.
