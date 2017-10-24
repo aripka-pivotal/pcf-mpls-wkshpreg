@@ -1,5 +1,5 @@
 # pcf-mpls-wkshpreg
-hugo project for mpls workshop regsitrations
+hugo project for mpls workshop registrations
 
 this workshop registration developed from - https://github.com/rjain-pivotal/pcf-hugo-workshop.  See that README for further details on developing a workshop content site.
 
